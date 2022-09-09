@@ -1,0 +1,33 @@
+.blog {min-height: 400px;}
+.blog #dib-template-2 a.dib-post, .blog .dib-related .dib-related-post{background: none; border-radius: 0; border: 1px solid #E5E5E5;}
+.blog #dib-template-2 .dib-post img.dib-post-featured-image, .blog .dib-related .dib-related-post .dib-post-featured-image img{border-radius: 0 !important;}
+.blog #dib-template-2 .dib-post-text{padding: 20px 20px 50px; text-align: left; display: flex; flex-direction: column-reverse;}
+.blog #dib-template-2 .dib-post-text h2, .blog #dib-template-2 .dib-post-single h1{font-weight: 700; font-size: 34px; line-height: 123.5%; letter-spacing: 0.25px; color: #000000;}
+.blog #dib-template-2 .dib-post-single h2, .blog #dib-template-2 .dib-post-single h3{font-size: 26px;}
+.blog #dib-template-2 .dib-post-text p.dib-meta-text.dib-no-author {position: static; left: auto; top: auto; line-height: normal; margin-bottom: 10px;}
+.blog #dib-template-2 .dib-post-text p.dib-meta-text, .blog #dib-template-2 .dib-post-text p{font-size: 16px;}
+.blog #dib-template-2 .dib-post-text p{color: rgba(0, 0, 0, 0.6);}
+.blog #dib-template-2 .dib-post-text p.dib-post-date{color: #000000;}
+.blog #dib-template-2 .dib-post-text .dib-meta-date::before, .blog .dib-heading{display: none;}
+.blog #dib-template-2 .dib-post-single p.dib-post-featured-image{margin-bottom: 30px;}
+.blog #dib-template-2 .dib-post-single p.dib-meta-text{margin-top: -10px;}
+.blog #dib-template-2 .dib-post-single .dib-post-content p a{text-decoration: underline;}
+.blog #dib-template-2 p.dib-meta-text .dib-meta-author{opacity: 1; color: #E1306C; position: absolute; bottom: 20px;}
+.blog #dib-template-2 p.dib-meta-text .dib-meta-readtime, .blog #dib-template-2 .dib-meta-item.dib-post-readtime{opacity: 1;}
+.blog #dib-template-2 .dib-post-single .dib-post-featured-image img{border-radius: 0;}
+.blog .dib-related .dib-related-posts{margin-top: 30px;}
+.blog .dib-related .dib-post-text{padding-bottom: 20px !important;}
+.blog .dib-related .dib-related-post .dib-meta-text, .blog .dib-related p{justify-content: left; margin-bottom: 0;}
+.blog .dib-related .dib-related-post .dib-meta-text{margin-bottom: 8px;}
+.blog .dib-related .dib-post-title{text-align: left;}
+.blog #dib-template-2{margin: 40px auto 10px;}
+.blog #dib-template-2{max-width: 1200px; width: 100%; padding: 0 8px;}
+.blog #dib-template-2 .dib-post-single{max-width: 840px; width: 100%;}
+.blog #dib-template-2 .dib-post-wrap, .blog #dib-template-2 .dib-post-single{margin-top: 0;}
+
+@media screen and (max-width: 767px) {
+.blog #dib-template-2{margin: 20px auto;}
+.blog #dib-template-2 .dib-post-text h2.dib-post-title, .blog #dib-template-2 .dib-post-single h1{font-size: 26px;}
+.blog #dib-template-2 .dib-post-single h2, .blog #dib-template-2 .dib-post-single h3{font-size: 20px;}
+.blog #dib-template-2 .dib-post-text p.dib-meta-text, .blog #dib-template-2 .dib-post-text p{font-size: 14px;}
+}
